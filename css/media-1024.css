@@ -1,0 +1,192 @@
+@media (max-width: 1120px) {
+    body{
+        min-width: 768px;
+    }
+    .container {
+        max-width: 1000px;
+    }
+    .btn {
+          display: inline-block;
+          padding: 15px 30px; 
+          font-weight:600;
+          line-height: 1;
+          font-size: 15px;
+         
+      }
+    .section-heading {
+        font-size: 50px;
+    }
+    .section-description {
+        font-size: 25px;
+    }
+    
+    
+
+    
+
+    .section-hero__heading {
+        font-size: 40px;
+    } 
+    .section-hero__description {
+        font-size: 25px;
+    }
+    .section-hero__btn {
+        font-size: 22px;
+    }
+    .section-hero__btn-description {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .section-hero__ssl-icon {
+       width: 26px;
+       height: 26px;
+    }
+
+
+    .section-do{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .section-do__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .section-do__item {
+        margin: 15px !important;
+        flex-basis: calc(33% - 20px);
+    }
+
+     .section-do__item-heading {
+        font-size: 30px;
+    }
+    .section-do__item:not(:last-child) {
+       margin-right: 30px;
+    } 
+    .section-do__icon {
+        margin-bottom: 30px;
+    }
+    .section-do__item-description {
+        margin-top: 0;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 24px;
+        text-align: center;
+        color: #787878
+    }
+     .section-clients {
+        padding-top: 50px;
+        padding-bottom: 70px;
+     }
+     .section-clients__heading {
+        text-align: center;
+     }
+     .section-clients__list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+     }
+     .section-clients__item {
+        margin: 15px;
+        flex-basis: calc(33% - 20px);
+        margin: 15px;
+     }
+     .section-clients__item:not(:last-child) {
+        margin: 15px;
+     } 
+     .section-clients__user-description {
+        font-size: 34px;
+        line-height: 35px;
+        font-weight: 400;
+        color: #787878;
+        
+    }
+    .section-clients__username {
+        font-size: 27px;
+        line-height: 25px;
+        font-weight: 600;
+    }
+    
+    .section-clients__testimonial {
+        margin-top: 0;
+        margin-bottom: 35px;
+        font-size: 22px;
+        line-height: 24px;
+        font-weight: 300;
+        color:#787878
+    
+    }
+    .contacts-title, .section-contacts__heading{
+        font-size: 50px;
+    }
+    .section-contacts {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .section-contacts__heading {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .section-contacts__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .section-contacts__item {
+        flex: 1 1 23%;
+        padding: 30px 25px 20px 25px; 
+        border: 3px solid #ececec;
+        border-radius: 4px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 15px;
+    }
+    .section-contacts__info {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .section-form {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .form {
+        max-width: 1000px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .form-control__item input, .form-control__item button {
+        width: 100%;
+    }
+    .form-control__item {
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        flex: 1 1 40%;
+        margin: 5px;
+    }
+    
+
+
+    .footer nav,  .footer small{
+        display: none;
+    }
+    
+    .footer {
+        display: flex;
+    }
+
+    .footer__social-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .footer__social-icon-mail{
+        transform: translateY(2px);
+    }
+}

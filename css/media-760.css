@@ -1,0 +1,191 @@
+@media (max-width: 780px) {
+   
+
+    .btn {
+        display: inline-block;
+        padding: 15px 30px; 
+        font-weight:600;
+        line-height: 1;
+        font-size: 15px;
+    }
+
+
+    .section-hero {
+        background: url(../img/BasePhoneWhite.jpg) right center no-repeat #ffffffdc;
+        background-size: cover ;
+       
+    }
+    .section-heading {
+        font-size: 50px;
+    }
+    .section-description {
+        font-size: 25px;
+    }
+
+    .hero-container__container {
+        padding-top: 25px;
+    }
+    .section-hero__content {
+        max-width: 60%;
+    }
+    .section-hero__heading {
+        font-size: 55px;
+        line-height: 55px;
+        font-weight: bold;
+    } 
+    .section-hero__description {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .section-hero__btn {
+        font-size: 40px;
+    }
+    .section-hero__btn-description {
+        font-size: 24px;
+    }
+
+
+    .section-do{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .section-do__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .section-do__item {
+        margin: 10px !important;
+        flex-basis: calc(100% - 20px);
+    }
+    
+     .section-do__item-heading {
+        font-size: 30px;
+    }
+    .section-do__item:not(:last-child) {
+       margin-right: 30px;
+    } 
+    .section-do__icon {
+        margin-bottom: 30px;
+    }
+    .section-do__item-description {
+        margin-top: 0;
+        font-weight: 300;
+        font-size: 26px;
+        line-height: 28px;
+        text-align: center;
+        color: #787878
+    }
+
+
+     .section-clients {
+        padding-top: 50px;
+        padding-bottom: 70px;
+     }
+     .section-clients__heading {
+        text-align: center;
+     }
+     .section-clients__list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+     }
+     .section-clients__item {
+        margin: 15px;
+        flex-basis: calc(100% - 20px);
+        margin: 15px;
+     }
+     .section-clients__item:not(:last-child) {
+        margin: 15px;
+     } 
+     .section-clients__user-description {
+        font-size: 34px;
+        line-height: 35px;
+        font-weight: 400;
+        color: #787878;
+        
+    }
+    .section-clients__username {
+        font-size: 27px;
+        line-height: 25px;
+        font-weight: 600;
+    }
+    
+    .section-clients__testimonial {
+        margin-top: 0;
+        margin-bottom: 35px;
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: 300;
+        color:#787878
+    
+    }
+    .contacts-title, .section-contacts__heading{
+        font-size: 50px;
+    }
+    .section-contacts {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .section-contacts__heading {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .section-contacts__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .section-contacts__item {
+        text-align: center;
+        flex: 1 1 50%;
+        padding: 20px; 
+        border: 3px solid #ececec;
+        border-radius: 4px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 15px;
+    }
+    .section-contacts-item__heading{
+        font-size: 35px;
+    }
+    .section-contacts__info {
+        text-align: center;
+        font-size: 28px;
+        line-height: 30px;
+        max-width: 100%;
+    }
+
+
+    .section-form {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .form {
+        max-width: 1000px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .form-control__item input, .form-control__item button {
+        padding: 35px;
+        width: 100%;
+    }
+    .form-control__item {
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        flex: 1 1 100%;
+        margin: 5px;
+        font-size: 25px;
+    }
+    .btn-submit {
+        padding: 10px;
+        font-size: 36px;
+    }
+    
+}
